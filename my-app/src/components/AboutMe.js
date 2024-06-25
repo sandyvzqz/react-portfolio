@@ -1,7 +1,6 @@
 import { useState, useEffect} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { ArrowRightCircle } from 'react-bootstrap-icons';
-// import headerImg from '../assets/images/mountains.png';
+import profilePic from '../assets/images/profilepic.jpg';
 
 export const About = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -43,13 +42,12 @@ export const About = () => {
         <Container>
             <Row className="align-items-center">
                 <Col xs={12} md={6} xl={7}>
-                    <span className="tagline"> Sandy V. Portfolio</span>
-                    <h1>{`Portfolio`}<span className="wrap"> {text} </span></h1>
-                    <p> This is a section about me. Remember to include a picture and a short description about me.</p>
-                    <button onClick={() => console.log('connect')}>Contact ME <ArrowRightCircle size={25}/></button>
+                    <span className="tagline"> Sandy Vazquez</span>
+                    <h1><span className="wrap"> {text} </span></h1>
+                    <p> This year I began my journey to become a web developer, and it has not been easy. There were many times that I thought about giving up because it was too hard, but I am proud of myself for overcoming those feelings of failure and learning from them.</p>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
-                    {/* <img src={headerImg} alt="header image"/> */}
+                    <img src={profilePic} alt="profile picture"/>
                 </Col>
             </Row>
         </Container>

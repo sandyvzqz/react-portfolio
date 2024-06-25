@@ -1,3 +1,3 @@
 ## Technologies Used
-- React-create-App
-- React Bootstrap 
+- NodeMailer package
+- 

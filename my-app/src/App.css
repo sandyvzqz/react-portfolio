@@ -362,6 +362,22 @@ span.navbar-text{
   border-color: transparent;
 }
 
+/* Footer */
+.footer{
+  padding: 0 0 50px 0;
+}
+.footer .social-icon{
+  position: absolute;
+}
+.footer p{
+  font-weight: 400;
+  font-size: 15px;
+  color: #e8dcdc;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  position: relative;
+}
+
 .App {
   text-align: center;
 }
